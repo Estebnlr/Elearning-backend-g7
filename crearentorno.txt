@@ -1,0 +1,17 @@
+python -m venv entorno_flask
+
+pip install camelcase
+
+source entorno_flask/Scripts/activate 
+pip freeze
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
+
+deactivate dormirentorno
+
+pip install Flask
+
+
+pip install autopep8
